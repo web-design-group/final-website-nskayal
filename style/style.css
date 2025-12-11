@@ -1,0 +1,351 @@
+
+.i:hover{text-decoration: underline;
+color: black;}
+
+.i:active{ text-decoration: none;
+    color: #ff0084;}
+
+.i {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight:bold;
+    color: black;
+    text-decoration: none;
+}
+
+.head {
+    height: 11vw;
+    background: linear-gradient(to bottom, white, transparent);
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    position: absolute;
+    width: 100%;
+}
+
+.headtxt {
+    margin: 0 15vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 3vw;
+    position: relative;
+    z-index: 1000;
+}
+
+#name {
+    font-family: Ballet;
+    color: white;
+    font-size: 18vw;
+    
+}
+
+#name2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: 1.3vw;  
+    margin: 0 -18vw 29vw; 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    left: 10%;
+}
+
+.p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    margin: -12vw 33% 0 25%;
+    text-align: justify;
+    line-height: 1.6;
+    position: absolute;
+}
+
+h1 { 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+    margin: 8vw 20vw 5vw;
+    font-weight:lighter;
+
+}
+
+.bal {
+    font-family: Mea Culpa; 
+    font-size: 2vw; 
+    letter-spacing: 0.4vw;
+}
+
+
+.cont {
+    display: flex;
+    gap: 1.5vw;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5vw;
+    margin: 0 -32vw;
+    
+}
+
+.cont3 {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    margin: 0 43.6vw 4vw;
+}
+
+.cont4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5vw;
+    margin: 0 0 4vw;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7vw;
+    margin: 0 0 4vw;
+}
+
+#contact {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8vw;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin: 0 0 -7vw;
+}
+
+#exp {
+    display: flex;
+    width: 72vw;
+    justify-content: flex-start;
+
+}
+
+.nam {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.4vw;
+}
+
+.otzv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    margin: 0 12vw 2vw 0;
+    
+}
+
+.p2 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    line-height: 1.6;
+    margin-right: 4vw;   
+}
+
+.otzv2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2.1vw;
+    margin: 0 15vw;
+    
+}
+
+/* Стили для выпадающего меню */
+.dropdown-menu a:hover {
+    background-color: #ff0084 !important;
+    color: white !important;
+}
+
+/* Стили для галереи */
+
+/* Важно: сохраняем оригинальные flex-стили */
+.cont {
+    display: flex;
+    gap: 1.5vw;
+    align-items: flex-start;
+}
+
+.cont2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    margin: 0 -32vw;
+}
+
+.cont3 {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5vw;
+    margin: 0 43.6vw 4vw;
+}
+
+.cont4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5vw;
+    margin: 0 0 4vw;
+}
+
+/* Стили для элементов галереи */
+.gallery-item {
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-item:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Гарантируем, что изображения внутри заполняют контейнер */
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Специфичные стили для первого большого фото */
+.cont > .gallery-item:first-child {
+    width: 29vw !important;
+    height: 33vw !important;
+    margin: 0 32vw 4vw 38vw !important;
+    flex-shrink: 0;
+}
+
+/* Стили для изображений в cont2 */
+.cont2 .gallery-item {
+    width: 16vw !important;
+    flex-shrink: 0;
+}
+
+/* Стили для отдельного большого фото */
+body > .gallery-item {
+    width: 40vw !important;
+    margin: 0 14vw 4vw !important;
+}
+
+/* Анимация для подписи */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.gallery-item:hover .gallery-caption {
+    animation: fadeInUp 0.4s ease forwards;
+}
+
+/* Стили для слайдера отзывов */
+.testimonials-slider {
+    position: relative;
+    width: 100%;
+    margin-bottom: 4vw;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.slide.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Стили для стрелок слайдера */
+.slider-arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.slider-arrow:hover {
+    transform: scale(1.1);
+}
+
+.slider-arrow:active {
+    transform: scale(0.95);
+}
+
+/* Индикаторы слайдов */
+.slider-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 2vw;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+
+.indicator:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.2);
+}
+
+.indicator.active {
+    background-color: white;
+    transform: scale(1.2);
+}
+
+
+
+/* Стили для Font Awesome стрелок */
+.slider-arrow .fas {
+    font-size: 2.5vw;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+}
+
+.slider-arrow:hover .fas {
+    color: #ff0084;
+    transform: scale(1.2);
+}

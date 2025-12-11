@@ -1,0 +1,232 @@
+.i:hover{text-decoration: underline;
+color: black;}
+
+.i:active{ text-decoration: none;
+    color: #ff0084;}
+
+.i {
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    font-weight:bold;
+    color: black;
+    text-decoration: none;
+}
+
+.head {
+    height: 11vw;
+    background: linear-gradient(to bottom, white, transparent);
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.headtxt {
+    margin: 0 15vw;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 3vw;
+}
+
+.bal {
+    font-family: Mea Culpa; 
+    font-size: 2vw; 
+    letter-spacing: 0.2vw;
+}
+
+h1 { 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7vw;
+    margin: 8vw 20vw 5vw;
+    font-weight:lighter;
+}
+
+.p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    margin: 0vw 20vw 3vw;
+    line-height: 1.6;
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7vw;
+    margin: 0 0 4vw;
+}
+
+#contact {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8vw;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin: 0 0 -7vw;
+}
+
+#exp {
+    display: flex;
+    width: 72vw;
+    justify-content: flex-start;
+
+}
+
+
+
+.button {
+    height: 3vw;
+    width: 17vw;
+    background-color: #ff0084;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4vw;
+    font-weight:bold;
+    border-radius: 1.5vw;
+    margin: 0 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50vw;
+
+}
+.button:hover {
+    box-shadow: 0px 0px 1vw 0.5vw white;
+}
+.button:active {
+    background-color: #92004c;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: repeat(5, auto);
+    gap: 1% 1%;
+    margin: 5% 14% 8%;
+}
+.gallery .a {
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start:2 ;
+}
+.gallery .b {
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+}
+
+.gallery .c {
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:1 ;
+}
+
+.gallery .d {
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:2 ;
+}
+
+.gallery .e {
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:3 ;
+}
+.gallery .r {
+    grid-column-start:4;
+    grid-column-end:5;
+    grid-row-start:3 ;
+
+}
+.gallery .t {
+    grid-column-start:5;
+    grid-column-end:6;
+    grid-row-start:3 ;
+
+}
+.gallery .w {
+    grid-column-start:6 ;
+    grid-column-end:7;
+    grid-row-start:3 ;
+}
+.gallery .q {
+    grid-column-start:3;
+    grid-column-end:4;
+    grid-row-start:4 ;
+}
+.gallery .k {
+    grid-column-start:4;
+    grid-column-end:6;
+    grid-row-start:4 ;
+}
+
+
+.gallery2 {
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(6, auto);
+    gap: 1% 1%;
+    margin: 5% 14% 8%;
+}
+.gallery2 .a1 {
+    grid-column-start:1;
+    grid-column-end:8;
+    grid-row-start:1 ;
+    grid-row-end:3 ;
+}
+.gallery2 .b2 {
+    grid-column-start:8 ;
+    grid-column-end:10 ;
+    grid-row-start:2 ;
+    grid-row-end:3 ;
+}
+
+.gallery2 .c3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end:5 ;
+}
+
+.gallery2 .d4 {
+    grid-column-start:3;
+    grid-column-end:5;
+    grid-row-start:3;
+    grid-row-end:5 ;
+}
+
+.gallery2 .e5 {
+    grid-column-start:5;
+    grid-column-end:7;
+    grid-row-start: 3;
+    grid-row-end:5 ;
+}
+.gallery2 .r6 {
+    grid-column-start:11;
+    grid-column-end:13;
+    grid-row-start: 3;
+    grid-row-end:5 ;
+
+}
+.gallery2 .t7 {
+    grid-column-start:6;
+    grid-column-end:9;
+    grid-row-start: 5;
+
+}
+.gallery2 .w8 {
+    grid-column-start: 9;
+    grid-column-end: 11;
+    grid-row-start: 5;
+} 
+

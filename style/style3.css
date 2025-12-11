@@ -1,0 +1,118 @@
+.custom-nav a:hover {
+    text-decoration: underline;
+    color: black;
+}
+        
+.custom-nav a:active {
+    text-decoration: none;
+    color: #ff0084;
+}
+
+.custom-nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 1.6rem;
+    white-space: nowrap;
+}
+
+@media (max-width: 992px) {
+    .custom-nav a {
+        font-size: 1.2rem;
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .custom-nav a {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .custom-nav a {
+        font-size: 0.6rem;
+    }
+}
+
+.custom-header {
+    height: 11vw;
+    
+    background: linear-gradient(to bottom, white, transparent);
+}
+
+
+.bal {
+    font-family: Mea Culpa !important; 
+    font-size: 2vw !important; 
+    letter-spacing: 0.2vw !important;
+    color: white; 
+    text-decoration: none;
+}
+
+h1 { 
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-size: 1.7vw !important;
+    margin: 8vw 20vw 5vw !important;
+    font-weight:lighter !important;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7vw;
+    margin: 0 0 4vw;
+}
+
+#contact {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8vw;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin: 0 0 -7vw;
+}
+
+#exp {
+    display: flex;
+    width: 72vw;
+    justify-content: flex-start;
+
+}
+
+form .form-control,
+form .form-select {
+    border-radius: 0 !important;
+}
+
+.custom-btn {
+    
+    background-color: #ff0084 !important;
+    border-radius: 1.5rem !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    color: black !important;
+    font-size: 1rem !important;
+    font-weight:bold !important;
+}
+
+.custom-btn:hover {
+    box-shadow: 0px 0px 1rem 0.5rem white;
+}
+.custom-btn:active {
+    background-color: #92004c;
+}
+
+
+
+.modal-content {
+    box-shadow: 
+        0 0 2rem 1rem rgba(255, 255, 255, 0.588),
+        0 0 4rem 2rem rgba(255, 255, 255, 0.29),
+        0 0 6rem 3rem rgba(255, 255, 255, 0.026);
+    
+}
